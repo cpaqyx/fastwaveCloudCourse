@@ -1,0 +1,31 @@
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            # 超时时间，默认1000ms，hystrix超时时间的计算： (1 + MaxAutoRetries + MaxAutoRetriesNextServer) * ReadTimeout
+            timeoutInMilliseconds: 5000
+      circuitBreaker:
+        #熔断器在整个统计时间内是否开启的阀值，默认20。也就是10秒钟内至少请求20次，熔断器才发挥起作用
+        requestVolumeThreshold: 10
+        #熔断器默认工作时间,默认:5秒.熔断器中断请求5秒后会关闭重试,如果请求仍然失败,继续打开熔断器5秒,如此循环
+        sleepWindowInMilliseconds: 10000
+        #当出错率超过50%后熔断器启动
+        errorThresholdPercentage: 50
+feign:
+  hystrix:
+    enabled: true
+
+ribbon:
+  # 指的是建立连接后从服务器读取到可用资源所用的时间, 默认为1秒 超过1秒没有读取到内容时，就认为此次读取不到内容并抛出Java.net.SocketException: read time out的异常
+  ReadTimeout: 2000
+  # ribbon请求连接的超时时间，默认值2000# 指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间
+  ConnectTimeout: 2000
+  # 因为ribbon的重试机制和Feign的重试机制有冲突，所以源码中默认关闭Feign的重试机制 对所有的操作请求都进行重试，如果是post,put等操作没有实现幂等的情况下是很危险的，所以设置为false 在编程中一个幂等操作的特点是其任意多次执行所产生的影响均与一次执行的影响相同
+  OkToRetryOnAllOperations: false
+  # 同一台实例最大重试次数,不包括首次调用，默认0
+  MaxAutoRetries: 0
+  # 重试负载均衡其他的实例最大重试次数,不包括首次调用，默认1
+  MaxAutoRetriesNextServer: 1
