@@ -21,4 +21,4 @@ feign:
 
 custom:
   pic:
-    path: e:\uploadfiles
+    path: f:\uploadfiles
