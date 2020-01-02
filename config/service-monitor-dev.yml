@@ -6,7 +6,7 @@ hystrix:
         isolation:
           thread:
             # 超时时间，默认1000ms，hystrix超时时间的计算： (1 + MaxAutoRetries + MaxAutoRetriesNextServer) * ReadTimeout
-            timeoutInMilliseconds: 5000
+            timeoutInMilliseconds: 7000
       circuitBreaker:
         #熔断器在整个统计时间内是否开启的阀值，默认20。也就是10秒钟内至少请求20次，熔断器才发挥起作用
         requestVolumeThreshold: 10
