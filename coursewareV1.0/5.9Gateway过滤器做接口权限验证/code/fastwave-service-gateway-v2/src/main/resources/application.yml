@@ -1,0 +1,47 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: service-gateway-v2
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: path_route_2service
+        predicates:
+        - Path=/auth/**
+        - Method=POST
+#        uri: http://localhost:8082
+        uri: lb://service-auth
+        filters:
+        - StripPrefix=1
+  redis:
+    host: localhost
+    port: 6379
+#      - id: query_route_2163
+#        predicates:
+#        - Query=userid, \d+
+#        uri: http://163.com
+#        order: 2
+#      - id: time_route_2baidu
+#        predicates:
+##        - After=2019-12-25T10:00:00+08:00:00[Asia/Shanghai]
+##        - Before=2019-12-25T10:00:00+08:00:00[Asia/Shanghai]
+#        - Between=2019-12-25T10:00:00+08:00:00[Asia/Shanghai],2029-12-25T10:00:00+08:00:00[Asia/Shanghai]
+#        uri: http://baidu.com
+#        order: 1
+
+logging:
+  level:
+    root: debug
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

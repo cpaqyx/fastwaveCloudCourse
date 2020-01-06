@@ -1,0 +1,9 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: service-zuul
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841

@@ -1,0 +1,37 @@
+	
+	<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+	<dependency>
+            <groupId>com.marcosbarbero.cloud</groupId>
+            <artifactId>spring-cloud-zuul-ratelimit</artifactId>
+            <version>2.2.4.RELEASE</version>
+        </dependency>
+
+
+zuul:
+  # 配置路由
+  routes:
+    services-auth:
+      path: /services-auth/**
+      serviceId: services-auth
+  # 配置限流
+  ratelimit:
+    enabled: true
+    # 对应存储类型(用来统计存储统计信息)
+    repository: redis
+    # 配置路由的策略
+    policy-list:
+      services-auth:
+        # 每秒允许多少个请求
+        - limit: 1
+          # 刷新时间(单位秒)
+          refresh-interval: 3
+          # 根据什么统计
+          # user: 认证用户或者匿名，针对某个用户粒度进行限流
+          # origin: 客户机的IP,针对请求客户机的IP进行限流
+          # url: 特定url,针对请求的url粒度进行限流
+          # serviceId: 特定服务，针对某个服务的id粒度进行限流
+          type:
+            - url
