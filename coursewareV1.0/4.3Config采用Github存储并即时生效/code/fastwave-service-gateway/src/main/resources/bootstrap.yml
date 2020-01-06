@@ -1,0 +1,39 @@
+#server:
+#  port: 8085
+#spring:
+#  application:
+#    name: service-gateway
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8841,localhost:8842,localhost:8843
+
+server:
+  port: 8085
+spring:
+  application:
+    name: service-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841
+    config:
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      uri: http://localhost:8090
+    #      discovery:
+    #        enabled: true
+    #        service-id: cloud-config
+    main:
+      allow-bean-definition-overriding: true
+
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"

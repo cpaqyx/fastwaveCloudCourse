@@ -1,0 +1,12 @@
+custom:
+  pic:
+    path: E:\uploadfiles（nacos service-gateway-dev.yml)
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            # 超时时间，默认1000ms，hystrix超时时间的计算： (1 + MaxAutoRetries + MaxAutoRetriesNextServer) * ReadTimeout
+            timeoutInMilliseconds: 7000

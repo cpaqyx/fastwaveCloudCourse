@@ -1,0 +1,130 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: service-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841
+    config:
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      uri: http://localhost:8090
+#      discovery:
+#        enabled: true
+#        service-id: cloud-config
+    main:
+      allow-bean-definition-overriding: true
+
+
+
+server:
+  port: 8090
+spring:
+  application:
+    name: cloud-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841,localhost:8842,localhost:8843
+    config:
+      server:
+        native:
+          search-locations: classpath:/config
+        #git:
+        #  uri: https://github.com/cpaqyx/fastwaveCloudCourse
+          # uri: https://gitee.com/cpaqyx/fastwaveCloudCourse.git
+          #username:
+          #password:
+          #search-paths: config
+
+
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+
+
+http://localhost:8085/actuator/refresh
+
+https://github.com/cpaqyx/fastwaveCloudCourse/tree/master/config
+
+https://gitee.com/cpaqyx/fastwaveCloudCourse/tree/master/config
+
+http://192.168.2.111:8090/service-gateway/dev
+
+https://github.com/cpaqyx/fastwaveCloudCourse/blob/master/config
+
+http://localhost:8085/actuator/refresh
+
+
+
+
+
+server:
+  port: 8090
+spring:
+  application:
+    name: sinhic-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cpaqyx/fastwaveCloudCourse
+          username: cpaqyx
+          password: no123cp
+          search-paths: config
+
+
+logging:
+  level:
+    root: debug
+
+
+
+
+
+
+
+
+
+
+
+
+
+spring:
+  application:
+    name: service-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841
+    config:
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      uri: http://localhost:8090
+#      discovery:
+#        enabled: true
+#        service-id: cloud-config
+    main:
+      allow-bean-definition-overriding: true
+
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
