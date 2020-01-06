@@ -1,0 +1,66 @@
+
+ribbon:
+  # 指的是建立连接后从服务器读取到可用资源所用的时间, 默认为1秒 超过1秒没有读取到内容时，就认为此次读取不到内容并抛出Java.net.SocketException: read time out的异常
+  ReadTimeout: 1000
+  # ribbon请求连接的超时时间，默认值2000# 指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间
+  ConnectTimeout: 2000
+  # 因为ribbon的重试机制和Feign的重试机制有冲突，所以源码中默认关闭Feign的重试机制 对所有的操作请求都进行重试，如果是post,put等操作没有实现幂等的情况下是很危险的，所以设置为false 在编程中一个幂等操作的特点是其任意多次执行所产生的影响均与一次执行的影响相同
+  OkToRetryOnAllOperations: false
+  # 同一台实例最大重试次数,不包括首次调用，默认0
+  MaxAutoRetries: 0
+  # 重试负载均衡其他的实例最大重试次数,不包括首次调用，默认1
+  MaxAutoRetriesNextServer: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ribbon:
+  # 指的是建立连接后从服务器读取到可用资源所用的时间, 默认为1秒
+  # 超过1秒没有读取到内容时，就认为此次读取不到内容并抛出Java.net.SocketException: read time out的异常
+  ReadTimeout: 1000
+
+  # ribbon请求连接的超时时间，默认值2000
+  # 指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间
+  ConnectTimeout: 2000
+
+  # 因为ribbon的重试机制和Feign的重试机制有冲突，所以源码中默认关闭Feign的重试机制
+  # 对所有的操作请求都进行重试，如果是post,put等操作没有实现幂等的情况下是很危险的，所以设置为false
+  # 在编程中一个幂等操作的特点是其任意多次执行所产生的影响均与一次执行的影响相同
+  # 当OkToRetryOnAllOperations设置为false时，只会对get请求进行重试
+  OkToRetryOnAllOperations: false
+
+  # 同一台实例最大重试次数,不包括首次调用，默认0
+  MaxAutoRetries: 0
+
+  # 重试负载均衡其他的实例最大重试次数,不包括首次调用，默认1
+  MaxAutoRetriesNextServer: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

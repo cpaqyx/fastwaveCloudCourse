@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3dc046d1-064e-4a15-8516-bf5d44cca0dc" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\respository" />
+        <option name="mavenHome" value="D:/java/apache-maven-3.5.2-aliyun" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.5.2-aliyun\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UeVOA6zgz7x5r6o4SitBF3XIfG" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fastwave-service-gateway/src/main/java/fastwave/cloud/demo/fastwaveservicegateway/httpClient" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\springcloud\fastwaveclouddemo\fastwave-service-gateway\src\main\java\fastwave\cloud\demo\fastwaveservicegateway\httpClient" />
+      <recent name="E:\workspace\springcloud\fastwaveclouddemo\fastwave-lib-common\src\main\java\fastwave\cloud\demo\fastwavelibcommon" />
+      <recent name="E:\workspace\springcloud\fastwaveclouddemo\fastwave-service-auth\src\main\java\fastwave\cloud\fastwaveserviceauth\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FastwaveServiceGatewayApplication">
+    <configuration name="FastwaveCloudEurekaApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fastwave-cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fastwave.cloud.fastwavecloudeureka.FastwaveCloudEurekaApplication" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=peer2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastwaveCloudEurekaApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fastwave-cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fastwave.cloud.fastwavecloudeureka.FastwaveCloudEurekaApplication" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=peer3" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastwaveCloudEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fastwave-cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fastwave.cloud.fastwavecloudeureka.FastwaveCloudEurekaApplication" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=peer1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastwaveErvicesGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fastwave-ervices-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fastwave.cloud.demo.fastwaveervicesgateway.FastwaveErvicesGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastwaveLibCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fastwave-lib-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fastwave.cloud.demo.fastwavelibcommon.FastwaveLibCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastwaveServiceAuthApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fastwave-service-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fastwave.cloud.fastwaveserviceauth.FastwaveServiceAuthApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastwaveServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fastwave-service-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fastwave.cloud.fastwaveserviceauth.FastwaveServiceAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastwaveServiceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fastwave-service-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fastwave.cloud.demo.fastwaveservicegateway.FastwaveServiceGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastwaveServicesGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fastwave-services-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fastwave.cloud.demo.fastwaveservicesgateway.FastwaveServicesGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.FastwaveCloudEurekaApplication" />
+      <item itemvalue="Spring Boot.FastwaveCloudEurekaApplication (2)" />
+      <item itemvalue="Spring Boot.FastwaveCloudEurekaApplication (3)" />
+      <item itemvalue="Spring Boot.FastwaveServiceAuthApplication" />
+      <item itemvalue="Spring Boot.FastwaveServiceAuthApplication (2)" />
+      <item itemvalue="Spring Boot.FastwaveErvicesGatewayApplication" />
+      <item itemvalue="Spring Boot.FastwaveServicesGatewayApplication" />
+      <item itemvalue="Spring Boot.FastwaveServiceGatewayApplication" />
+      <item itemvalue="Spring Boot.FastwaveLibCommonApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dc046d1-064e-4a15-8516-bf5d44cca0dc" name="Default Changelist" comment="" />
+      <created>1575717012561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575717012561</updated>
+      <workItem from="1575717015415" duration="5433000" />
+      <workItem from="1575808007396" duration="1281000" />
+      <workItem from="1575856905030" duration="1825000" />
+      <workItem from="1575859318812" duration="1327000" />
+      <workItem from="1575861214933" duration="463000" />
+      <workItem from="1575862955434" duration="1023000" />
+      <workItem from="1575864850414" duration="434000" />
+      <workItem from="1575865309084" duration="30000" />
+      <workItem from="1575865559707" duration="2696000" />
+      <workItem from="1575891884417" duration="35000" />
+      <workItem from="1576050666203" duration="2808000" />
+      <workItem from="1576133871568" duration="17517000" />
+      <workItem from="1576200310942" duration="22705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
