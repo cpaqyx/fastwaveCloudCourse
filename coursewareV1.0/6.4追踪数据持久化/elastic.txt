@@ -1,0 +1,5 @@
+œ¬‘ÿµÿ÷∑£∫
+https://www.elastic.co/cn/downloads/elasticsearch
+
+∆Ù∂Ø√¸¡Ó£∫
+java -jar zipkin.jar --STORAGE_TYPE=elasticsearch --ES_HOSTS=http://localhost:9200 --ES_HTTP_LOGGING=BASIC
