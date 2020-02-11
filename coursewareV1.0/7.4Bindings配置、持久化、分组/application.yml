@@ -1,0 +1,9 @@
+server:
+  port: 8071
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        topicEmail:
+          destination: exEmail
