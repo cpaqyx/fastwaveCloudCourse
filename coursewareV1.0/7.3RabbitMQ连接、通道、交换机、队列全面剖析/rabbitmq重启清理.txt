@@ -1,0 +1,12 @@
+# 执行命令前切换到如下目录
+cd C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.2\sbin
+
+# 重启
+rabbitmq-service stop
+rabbitmq-service start
+
+
+清除所有队列数据：
+rabbitmqctl stop_app
+rabbitmqctl reset
+rabbitmqctl start_app
