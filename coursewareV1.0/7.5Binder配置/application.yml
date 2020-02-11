@@ -1,0 +1,35 @@
+server:
+  port: 8072
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        topicEmail:
+          group: groupEmail
+#          binder: local_rabbit1
+      binders:
+        local_rabbit1:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5673
+                username: guest
+                password: guest
+        local_rabbit2:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5673
+                username: guest
+                password: guest
+      default-binder: local_rabbit1
+#  rabbitmq:
+#    host: localhost
+#    port: 5673
+#    username: guest
+#    password: guest
