@@ -1,0 +1,15 @@
+.settings
+/.metadata/
+applog
+
+/.metadata/
+/.idea/
+.mvn/
+mvnw
+mvnw.cmd
+*.iml
+
+Servers
+target
+.classpath
+.project
