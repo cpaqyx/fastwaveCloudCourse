@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fastwave-lib-common" />
+        <module name="fastwave-service-gateway" />
+        <module name="fastwaveclouddemo" />
+        <module name="fastwave-service-auth" />
+        <module name="fastwave-cloud-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fastwave-ervices-gateway" target="1.8" />
+      <module name="fastwave-services-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fastwave-cloud-eureka" options="-parameters" />
+      <module name="fastwave-ervices-gateway" options="-parameters" />
+      <module name="fastwave-lib-common" options="-parameters" />
+      <module name="fastwave-service-auth" options="-parameters" />
+      <module name="fastwave-service-gateway" options="-parameters" />
+      <module name="fastwave-services-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

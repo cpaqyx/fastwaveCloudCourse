@@ -1,0 +1,8 @@
+logging:
+  level:
+    root: info
+
+
+custom:
+  pic:
+    path: E:\uploadfiles£¨nacos common-log.yml)

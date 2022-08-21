@@ -1,0 +1,13 @@
+.settings
+/.metadata/
+applog
+
+/.metadata/
+
+Servers
+target
+.classpath
+.project
+.mvnw
+.mvnw.cmd
+.mvn/*

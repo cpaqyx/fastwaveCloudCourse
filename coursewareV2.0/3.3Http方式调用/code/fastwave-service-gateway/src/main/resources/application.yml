@@ -1,0 +1,9 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841,localhost:8842,localhost:8843

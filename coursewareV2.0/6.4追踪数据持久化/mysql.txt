@@ -1,0 +1,5 @@
+初始化sql脚本:
+https://github.com/openzipkin/zipkin/blob/master/zipkin-storage/mysql-v1/src/main/resources/mysql.sql
+
+启动命令：
+java -jar zipkin.jar --STORAGE_TYPE=mysql --MYSQL_HOST=localhost --MYSQL_TCP_PORT=3307 --MYSQL_DB=zipkin --MYSQL_USER=root --MYSQL_PASS=123456

@@ -1,0 +1,20 @@
+
+erlang下载
+https://www.erlang.org/downloads
+安装路径：
+C:\Program Files\erl10.6
+
+
+rabbitmq下载
+https://www.rabbitmq.com/install-windows.html
+安装路径：
+C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.2\
+
+
+启动rabbitmq
+cd C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.2\sbin
+rabbitmq-plugins enable rabbitmq_management
+
+启动zipkin
+java -jar zipkin.jar --STORAGE_TYPE=elasticsearch --ES_HOSTS=http://localhost:9200 --ES_HTTP_LOGGING=BASIC --zipkin.collector.rabbitmq.addresses=localhost --zipkin.collector.rabbitmq.username=guest --zipkin.collector.rabbitmq.password=guest
+

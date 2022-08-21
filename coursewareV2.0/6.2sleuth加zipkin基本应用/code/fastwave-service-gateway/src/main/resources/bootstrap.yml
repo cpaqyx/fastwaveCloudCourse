@@ -1,0 +1,41 @@
+#server:
+#  port: 8085
+#spring:
+#  application:
+#    name: service-gateway
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8841,localhost:8842,localhost:8843
+
+server:
+  port: 8085
+spring:
+  application:
+    name: service-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841
+      config:
+        server-addr: localhost:8841
+        file-extension: yml
+        ext-config:
+        - dataId: common-log.yml
+          group: DEFAULT_GROUP
+          refresh: true
+        shared-dataids: common-consumer.yml
+        refreshable-dataids: common-consumer.yml
+        namespace: 0ac63b49-ff80-4a02-9466-f66d831cffb0
+#        group: TEST_GROUP
+#        group: DEV_GROUP
+#        - dataId: common-consumer.yml
+#          group: DEFAULT_GROUP
+#          refresh: true
+#        shared-dataids: common-consumer.yml,common-log.yml
+#logging:
+#  level:
+#    root: debug
+#        refreshable-dataids: common-log.yml

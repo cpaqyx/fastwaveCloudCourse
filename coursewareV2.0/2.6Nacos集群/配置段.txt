@@ -1,0 +1,13 @@
+
+-- mysql5.7下载地址
+https://dev.mysql.com/downloads/mysql/5.7.html
+
+-- navicat下载地址
+https://www.navicat.com.cn/download/navicat-for-mysql
+	
+spring.datasource.platform=mysql
+db.num=1
+db.url.0=jdbc:mysql://127.0.0.1:3307/nacosconfig?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+#db.url.1=jdbc:mysql://127.0.0.1:3307/nacosconfig?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+db.user=root
+db.password=123456

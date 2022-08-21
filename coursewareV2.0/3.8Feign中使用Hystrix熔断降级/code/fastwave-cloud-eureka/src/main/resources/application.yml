@@ -1,0 +1,56 @@
+#server:
+#  port: 8761
+#
+#spring:
+#  application:
+#    name: eureka-server
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+
+##############################集群配置(HA)#############################################
+# （1）配置前需要到C:\Windows\System32\drivers\etc\hosts文件中加入127.0.0.1 peer1,peer2,peer3
+# （2）运行jar包时需要带参数：java -jar springcloud-eureka-ha-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer1
+# 启动第一个、第二个时会报异常，启动第三个后就不会再报错了
+# （3）Eureka Server注册服务的地址
+# eureka.client.service-url.defaultZone=http://peer1:8761/eureka/,http://peer2:8762/eureka,http://peer3:8763/eureka
+spring:
+  application:
+    name: EUREKA-CLUSTER
+---
+server:
+  port: 8761
+spring:
+  # 指定profile=peer1
+  profiles: peer1
+eureka:
+  instance:
+    # 指定当profile=peer1时，主机名是peer1
+    hostname: peer1
+  client:
+    service-url:
+      # 将自己注册到peer2、peer3这个Eureka上面去
+      defaultZone: http://peer2:8762/eureka/,http://peer3:8763/eureka/
+---
+server:
+  port: 8762
+spring:
+  profiles: peer2
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/,http://peer3:8763/eureka/
+---
+server:
+  port: 8763
+spring:
+  profiles: peer3
+eureka:
+  instance:
+    hostname: peer3
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/

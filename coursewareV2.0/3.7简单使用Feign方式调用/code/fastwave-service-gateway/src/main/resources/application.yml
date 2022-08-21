@@ -1,0 +1,26 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841,localhost:8842,localhost:8843
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            # 超时时间，默认1000ms
+            timeoutInMilliseconds: 1000
+      circuitBreaker:
+        #熔断器在整个统计时间内是否开启的阀值，默认20。也就是10秒钟内至少请求20次，熔断器才发挥起作用
+        requestVolumeThreshold: 10
+        #熔断器默认工作时间,默认:5秒.熔断器中断请求5秒后会关闭重试,如果请求仍然失败,继续打开熔断器5秒,如此循环
+        sleepWindowInMilliseconds: 10000
+        #当出错率超过50%后熔断器启动
+        errorThresholdPercentage: 50

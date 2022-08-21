@@ -1,0 +1,44 @@
+package com.scl.test.transcaction;
+
+import java.sql.Connection;
+import java.sql.Statement;
+
+import org.junit.Test;
+
+public class TestTranscaction
+{
+
+    @Test
+    public void testTransaction() throws Exception
+    {
+        Connection conn = null;
+        Statement statement = null;
+
+        try
+        {
+            conn = JDBCHelper.getConnection();
+
+            conn.setAutoCommit(false); //开启事务，禁止自动提交
+            String sql1 = "update t_account t set t.money=t.money-100 where t.name ='a'";
+            String sql2 = "upate t_account t set t.money=t.money+100 where t.name ='b'";
+            statement = conn.createStatement();
+            // statement.setString(1, "a");
+
+            statement.addBatch(sql1);
+            statement.addBatch(sql2);
+
+
+            statement.executeBatch();
+            conn.commit(); //执行成功，提交事务
+
+        }
+        catch (Exception e)
+        {
+            conn.rollback(); //发生异常，事务回滚
+        }
+        finally
+        {
+            JDBCHelper.disposeConnect(statement, conn);
+        }
+    }
+}

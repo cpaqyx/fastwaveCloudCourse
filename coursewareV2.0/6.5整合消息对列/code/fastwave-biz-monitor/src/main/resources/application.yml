@@ -1,0 +1,31 @@
+server:
+  port: 8071
+spring:
+  application:
+    name: biz-monitor
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841
+#  zipkin:
+#    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
+    zuul:
+      enabled: false
+  zipkin:
+    sender:
+      type: rabbit
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    listener:
+      direct:
+        retry:
+          enabled: true
+      simple:
+        retry:
+          enabled: true

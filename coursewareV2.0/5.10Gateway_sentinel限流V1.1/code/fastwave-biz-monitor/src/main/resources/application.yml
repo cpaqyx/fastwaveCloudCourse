@@ -1,0 +1,9 @@
+server:
+  port: 8071
+spring:
+  application:
+    name: biz-monitor
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8841

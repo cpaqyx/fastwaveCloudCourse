@@ -1,0 +1,10 @@
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+http://localhost:8085/actuator/refresh
