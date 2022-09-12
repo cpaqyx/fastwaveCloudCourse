@@ -10,8 +10,12 @@ import java.util.Map;
 public class AuthController {
 
     @GetMapping("/hasPermission")
-    public R hasPermission(@RequestParam Map<String,Object> params) throws InterruptedException {
+    public R hasPermission(@RequestParam Map<String,Object> params) throws Exception {
         Object token = params.get("token");
+        if(token != null && token.toString().length() > 10)
+        {
+            throw new Exception("出现异常了");
+        }
         if(token != null && token.toString().length() > 5)
         {
             return R.ok("验证成功");

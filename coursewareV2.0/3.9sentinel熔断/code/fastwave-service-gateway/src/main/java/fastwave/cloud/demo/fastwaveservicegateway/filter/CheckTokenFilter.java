@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.Map;
 
+/**
+ * http://localhost:8085/checkToken/byFeignGet?token=123456123456
+ */
 @RestController
 @RequestMapping("/checkToken")
 public class CheckTokenFilter {
@@ -69,6 +72,5 @@ public class CheckTokenFilter {
     {
         return authServiceFeign.byFeignPost(params);
     }
-
 
 }
