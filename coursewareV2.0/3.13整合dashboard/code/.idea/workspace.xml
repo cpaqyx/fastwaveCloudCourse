@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06861d58-5d29-4b00-9bac-1f7f896c0c30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../coursewareV1.0/1.5工程创建构建实例/fastwave-cloud-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../coursewareV1.0/1.5工程创建构建实例/fastwave-cloud-project/pom.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EIG9dQwp5zzNiA1NEUNwtwD4f9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../3.19sentinel使用nacos做持久化/code" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fastwave.cloud.auth" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fastwave.cloud.auth.controller" />
+      <recent name="fastwave.cloud.fastwaveserviceauth.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fastwave-service-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fastwave.cloud.auth.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06861d58-5d29-4b00-9bac-1f7f896c0c30" name="Default Changelist" comment="" />
+      <created>1662275534825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662275534825</updated>
+      <workItem from="1662275537868" duration="6972000" />
+      <workItem from="1662283256407" duration="5414000" />
+      <workItem from="1662298649772" duration="6830000" />
+      <workItem from="1662305698467" duration="2135000" />
+      <workItem from="1662386715654" duration="775000" />
+      <workItem from="1662389548340" duration="1746000" />
+      <workItem from="1662728549995" duration="7401000" />
+      <workItem from="1662775535054" duration="4331000" />
+      <workItem from="1662796093957" duration="9772000" />
+      <workItem from="1662859463387" duration="810000" />
+      <workItem from="1662975909460" duration="818000" />
+      <workItem from="1662978527297" duration="951000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

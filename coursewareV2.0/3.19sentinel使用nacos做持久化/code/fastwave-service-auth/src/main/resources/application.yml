@@ -1,0 +1,37 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: services-auth
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      web-context-unify: false # 调用链树展开
+      datasource:
+        # 名称仅起标识作用，可以是任意的
+        flow-rule:
+          #支持多种持久化数据源：file、nacos、zk、apollo、redis、consul
+          nacos:
+            # nacos服务地址
+            server-addr: localhost:8848
+            # 命名空间，根据环境配置
+            namespace: public
+            # 这里我做了一下细分，不同规则设置不同groupId
+            group-id: SENTINEL_GROUP
+            # 仅支持JSON和XML类型
+            data-id: ${spring.application.name}-flow-rules.json
+            # 规则类型：flow、degrade、param-flow、system、authority
+            rule-type: flow
+            # nacos开启了认证需要配置username、password
+            # username: nacos
+            # password: nacos
+  # 解决报错：Relying upon circular references is discouraged and they are prohibited by default.
+  # Update your application to remove the dependency cycle between beans. As a last resort,
+  # it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  main:
+    allow-circular-references: true
