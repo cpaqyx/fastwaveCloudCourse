@@ -40,6 +40,7 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
         return exchange.getResponse().setComplete();
     }
 
+    // 数值越小优先级越高
     @Override
     public int getOrder() {
         return -100;

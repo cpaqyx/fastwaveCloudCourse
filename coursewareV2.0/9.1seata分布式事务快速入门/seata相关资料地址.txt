@@ -1,0 +1,6 @@
+
+seata官网：https://seata.io/zh-cn/index.html
+
+seata介绍：https://seata.io/zh-cn/docs/overview/what-is-seata.html
+
+seata github地址：https://github.com/seata/seata
