@@ -1,0 +1,236 @@
+2020-01-15 19:52:44,113 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 19:52:44,117 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 192.168.2.111:8071_true,
+
+2020-01-15 19:52:56,402 INFO DEFAULT_GROUP@@service-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 19:52:56,402 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-auth, ips: 192.168.2.111:8082_true,
+
+2020-01-15 19:53:18,572 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 19:53:18,572 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 19:53:18,572 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 19:59:26,957 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 19:59:26,957 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 20:00:46,930 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 20:00:46,930 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 20:00:46,931 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 20:15:45,926 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 20:15:45,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 
+
+2020-01-15 20:15:45,964 INFO DEFAULT_GROUP@@service-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 20:15:45,964 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-auth, ips: 
+
+2020-01-15 20:15:46,752 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 20:15:46,753 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 21:14:48,220 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:14:48,220 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 192.168.2.111:8071_true,
+
+2020-01-15 21:15:03,486 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:15:03,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:15:03,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:15:03,501 INFO DEFAULT_GROUP@@service-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:15:03,501 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-auth, ips: 192.168.2.111:8082_true,
+
+2020-01-15 21:17:20,033 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:17:20,034 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 21:17:30,592 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:17:30,592 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:17:30,592 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:18:44,342 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:18:44,342 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 21:18:54,070 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:18:54,070 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:18:54,070 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:20:04,770 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:20:04,770 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 21:20:14,439 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:20:14,439 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:20:14,439 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:21:24,166 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:21:24,166 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 21:21:34,720 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:21:34,720 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:21:34,720 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:21:52,366 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:21:52,366 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 21:22:01,994 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:22:01,994 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:22:01,995 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:31:29,919 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:31:29,919 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 21:31:40,223 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:31:40,223 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:33:57,784 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:33:57,784 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 21:34:06,797 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:34:06,797 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:34:06,798 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:35:17,357 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:35:17,357 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 21:35:26,470 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:35:26,470 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:35:26,470 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:38:33,222 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:38:33,222 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 21:38:43,296 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:38:43,296 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:38:43,296 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 21:41:25,123 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:41:25,123 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 
+
+2020-01-15 21:41:25,177 INFO DEFAULT_GROUP@@service-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:41:25,177 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-auth, ips: 
+
+2020-01-15 21:41:25,582 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 21:41:25,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 22:00:38,633 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 22:00:38,633 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 192.168.2.111:8071_true,
+
+2020-01-15 22:00:46,273 INFO DEFAULT_GROUP@@service-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 22:00:46,273 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-auth, ips: 192.168.2.111:8082_true,
+
+2020-01-15 22:00:55,100 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 22:00:55,100 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 22:00:55,101 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 22:04:01,683 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 22:04:01,683 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 22:04:11,746 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 22:04:11,746 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 22:04:11,746 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 22:58:06,422 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 22:58:06,422 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 22:58:17,191 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 22:58:17,191 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 22:58:17,191 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 23:02:54,401 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:02:54,401 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 
+
+2020-01-15 23:03:00,777 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:03:00,777 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 192.168.2.111:8071_true,
+
+2020-01-15 23:07:37,200 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:07:37,200 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 
+
+2020-01-15 23:07:43,339 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:07:43,339 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 192.168.2.111:8071_true,
+
+2020-01-15 23:13:57,849 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:13:57,849 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 
+
+2020-01-15 23:14:02,718 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:14:02,718 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 23:14:03,838 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:14:03,839 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 192.168.2.111:8071_true,
+
+2020-01-15 23:14:13,613 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:14:13,613 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 23:14:13,613 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 23:21:54,169 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:21:54,169 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-15 23:22:04,886 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:22:04,886 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 23:22:04,887 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-15 23:25:31,626 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:25:31,626 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 
+
+2020-01-15 23:25:37,759 INFO DEFAULT_GROUP@@biz-monitor {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8071:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-15 23:25:37,759 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@biz-monitor, ips: 192.168.2.111:8071_true,
+

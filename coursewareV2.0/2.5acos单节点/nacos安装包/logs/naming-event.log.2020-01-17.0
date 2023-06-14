@@ -1,0 +1,28 @@
+2020-01-17 19:53:33,672 INFO DEFAULT_GROUP@@service-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-17 19:53:33,675 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-auth, ips: 192.168.2.111:8082_true,
+
+2020-01-17 19:53:48,413 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-17 19:53:48,413 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-17 19:54:53,423 INFO {POS} {IP-DISABLED} valid: 192.168.2.111:9000@DEFAULT@DEFAULT_GROUP@@service-gateway-v2, region: unknown, msg: client timeout after 15000, last beat: 1579262073492
+
+2020-01-17 19:54:53,673 INFO service: DEFAULT_GROUP@@service-gateway-v2 {POS} {IP-ENABLED} valid: 192.168.2.111:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2020-01-17 20:03:17,331 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-17 20:03:17,331 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+
+2020-01-17 20:03:26,091 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-17 20:03:26,091 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 192.168.2.111:9000_true,
+
+2020-01-17 20:58:21,559 INFO DEFAULT_GROUP@@service-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-17 20:58:21,559 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-auth, ips: 
+
+2020-01-17 20:58:21,615 INFO DEFAULT_GROUP@@service-gateway-v2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-17 20:58:21,616 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway-v2, ips: 
+

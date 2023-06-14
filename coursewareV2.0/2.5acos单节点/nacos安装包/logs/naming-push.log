@@ -1,0 +1,16 @@
+2019-12-08 20:43:25,212 INFO DEFAULT_GROUP@@auth is changed, add it to push queue.
+
+2019-12-08 20:43:25,214 INFO serviceName: DEFAULT_GROUP@@auth changed, schedule push for: 192.168.2.111:57490, agent: Nacos-Java-Client:v1.0.0, key: 192.168.2.111,57490,1689093622844
+
+2019-12-08 20:43:25,214 INFO send udp packet: 192.168.2.111,57490,1689093622844
+
+2019-12-08 20:43:25,223 INFO received ack: {"type": "push-ack", "lastRefTime":"1689093622844", "data":""} from: 192.168.2.111:, cost: 57490 ms, unacked: 9, total push: 0
+
+2019-12-08 21:08:51,588 INFO DEFAULT_GROUP@@auth is changed, add it to push queue.
+
+2019-12-08 21:08:51,589 INFO serviceName: DEFAULT_GROUP@@auth changed, schedule push for: 192.168.2.111:57490, agent: Nacos-Java-Client:v1.0.0, key: 192.168.2.111,57490,3209177414156
+
+2019-12-08 21:08:51,589 INFO send udp packet: 192.168.2.111,57490,3209177414156
+
+2019-12-08 21:08:51,602 INFO received ack: {"type": "push-ack", "lastRefTime":"3209177414156", "data":""} from: 192.168.2.111:, cost: 57490 ms, unacked: 13, total push: 0
+

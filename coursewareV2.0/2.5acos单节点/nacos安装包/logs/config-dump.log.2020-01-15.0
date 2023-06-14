@@ -1,0 +1,24 @@
+2020-01-15 19:50:13,050 INFO [dump-all-ok] service-gateway-dev.yml+DEFAULT_GROUP, 1576736564381, length=41, md5=df737c2e82960f62987827a4096e18b8
+
+2020-01-15 19:50:13,051 INFO [dump-all-ok] common-consumer.yml+DEFAULT_GROUP, 1576736455216, length=1097, md5=bc1f9a7d8d389dcb79a0e5c3b34cedc3
+
+2020-01-15 19:50:13,051 INFO [dump-all-ok] common-log.yml+DEFAULT_GROUP, 1576730150390, length=105, md5=3a69de7a3fe0dc1bd034585a36c1e40d
+
+2020-01-15 19:50:13,052 INFO [dump-all-ok] service-gateway.yml+DEFAULT_GROUP, 1576740773489, length=57, md5=793fe9027eef5cd517d65deddae8443a
+
+2020-01-15 19:50:13,052 INFO [dump-all-ok] service-gateway.yml+DEFAULT_GROUP, 1576744719682, length=55, md5=c367eed1c961bfcec7304659825c8752
+
+2020-01-15 19:50:13,052 INFO [dump-all-ok] service-gateway.yml+DEFAULT_GROUP, 1576744180052, length=56, md5=0f50dd915d4c37aab10994be2ac5e4b6
+
+2020-01-15 19:50:13,052 INFO [dump-all-ok] service-gateway-test.yml+DEFAULT_GROUP, 1576746272971, length=46, md5=4124e32d2e9d52ee62f4715bfc405567
+
+2020-01-15 19:50:13,052 INFO [dump-all-ok] service-gateway-prod.yml+DEFAULT_GROUP, 1576746310584, length=49, md5=041a6bfecc9bac5ae1a7bd06d4b0bceb
+
+2020-01-15 19:50:13,052 INFO [dump-all-ok] service-gateway.yml+DEV_GROUP, 1576746647057, length=51, md5=ac8053f2a1fadd061c7b6f357039ed0e
+
+2020-01-15 19:50:13,053 INFO [dump-all-ok] service-gateway.yml+TEST_GROUP, 1576746667736, length=52, md5=62b42f082643e3b95a1ff13bd33e749c
+
+2020-01-15 19:50:13,053 INFO [dump-all-ok] service-gateway.yml+DEFAULT_GROUP, 1576747006485, length=55, md5=c367eed1c961bfcec7304659825c8752
+
+2020-01-15 19:50:13,053 INFO [dump-all-ok] service-gateway.yml+DEFAULT_GROUP, 1576747040792, length=56, md5=0f50dd915d4c37aab10994be2ac5e4b6
+

@@ -1,0 +1,14 @@
+2019-12-08 20:43:24,199 INFO DEFAULT_GROUP@@auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 20:43:24,211 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth, ips: 192.168.2.111:8081_true,
+
+2019-12-08 21:08:50,586 INFO {POS} {IP-DISABLED} valid: 192.168.2.111:8081@DEFAULT@DEFAULT_GROUP@@auth, region: unknown, msg: client timeout after 15000, last beat: 1575809164907
+
+2019-12-08 21:08:50,590 INFO DEFAULT_GROUP@@auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.111:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-08 21:08:50,590 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth, ips: 
+
+2019-12-08 21:08:51,383 INFO DEFAULT_GROUP@@auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.111:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 21:08:51,383 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth, ips: 192.168.2.111:8081_true,
+
